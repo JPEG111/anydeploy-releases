@@ -6,12 +6,12 @@ accounts, no telemetry, no monthly bills.
 
 ## Download
 
-Latest release: [v1.0.0](../../releases/latest)
+Latest release: [v1.0.1](../../releases/latest)
 
 | Platform | Download |
 |---|---|
-| Windows 10+ (64-bit) | [anyDeploy Setup 1.0.0.exe](../../releases/latest/download/anyDeploy.Setup.1.0.0.exe) |
-| Linux x64 (Ubuntu 16.04+, Debian 9+, Fedora 25+, any glibc 2.17+ distro) | [anyDeploy-1.0.0.AppImage](../../releases/latest/download/anyDeploy-1.0.0.AppImage) |
+| Windows 10+ (64-bit) | [anyDeploy Setup 1.0.1.exe](../../releases/latest/download/anyDeploy.Setup.1.0.1.exe) |
+| Linux x64 (Ubuntu 16.04+, Debian 9+, Fedora 25+, any glibc 2.17+ distro) | [anyDeploy-1.0.1.AppImage](../../releases/latest/download/anyDeploy-1.0.1.AppImage) |
 | macOS | *Coming soon — email support@anydeploy.app for early access* |
 
 > **Verify integrity:** the SHA-256 checksum in `latest.yml` (Windows) or
@@ -64,9 +64,9 @@ SmartScreen will flash "Windows protected your PC" on first install — click **
 **Linux:** glibc 2.17+ (any distro from the last 8 years). ~200 MB disk.  
 Mark the AppImage executable first:
 ```bash
-chmod +x anyDeploy-1.0.0.AppImage
+chmod +x anyDeploy-1.0.1.AppImage
 ```
-Then double-click, or run `./anyDeploy-1.0.0.AppImage`.
+Then double-click, or run `./anyDeploy-1.0.1.AppImage`.
 
 **macOS:** coming soon.
 
