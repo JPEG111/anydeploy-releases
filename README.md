@@ -1,8 +1,20 @@
-# anyDeploy
+<div align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=timeGradient&height=200&section=header&text=anyDeploy&animation=fadeIn&fontColor=ffffff" alt="anyDeploy Banner" />
 
-**Self-hosted PaaS desktop app.** Deploy any GitHub repo to your own hardware —
-old phone, Linux server, Raspberry Pi, Windows PC. License-activated, no
-accounts, no telemetry, no monthly bills.
+  <br />
+
+  ![Version](https://img.shields.io/badge/version-1.0.1-6366f1?style=for-the-badge)
+  ![Downloads](https://img.shields.io/github/downloads/JPEG111/anydeploy-releases/total.svg?style=for-the-badge&color=10b981)
+  ![Windows](https://img.shields.io/badge/Windows-0078D4?style=for-the-badge&logo=windows)
+  ![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+  ![macOS](https://img.shields.io/badge/macOS%20soon-ECF0F1?style=for-the-badge&logo=apple&logoColor=black)
+  ![License](https://img.shields.io/badge/License-Proprietary-ef4444?style=for-the-badge)
+
+  <br />
+  <br />
+</div>
+
+**Self-hosted PaaS desktop app.** Deploy any GitHub repo to your own hardware — old phone, Linux server, Raspberry Pi, Windows PC. License-activated, no accounts, no telemetry, no monthly bills.
 
 ## Download
 
