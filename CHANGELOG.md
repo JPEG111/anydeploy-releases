@@ -3,6 +3,16 @@
 All notable changes to anyDeploy will be documented in this file.
 Format based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
+## [1.0.4] — 2026-05-21
+
+### Added
+- Faster, more reliable deploys across all target types — connection handling is more resilient on slow or unstable networks.
+- Improved app startup time on first launch.
+
+### Improved
+- More consistent deploy progress reporting — status updates arrive sooner and stay accurate for the full duration of a deploy.
+- General stability improvements throughout the app.
+
 ## [1.0.3] — 2026-05-20
 
 ### Added
