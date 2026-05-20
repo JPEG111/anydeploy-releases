@@ -3,6 +3,19 @@
 All notable changes to anyDeploy will be documented in this file.
 Format based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
+## [1.0.2] — 2026-05-19
+
+### Added
+- Redesigned plan picker with clearer tier differences.
+- New deploy progress view with named phases and elapsed-time counter.
+
+### Changed
+- Cleaner deploy experience — no transient "ERROR" state on successful deploys.
+- Sidebar stays stable during deploys.
+
+### Fixed
+- More reliable health detection across all supported target types.
+
 ## [1.0.1] — 2026-05-19
 
 ### Added
