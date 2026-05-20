@@ -3,6 +3,17 @@
 All notable changes to anyDeploy will be documented in this file.
 Format based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
+## [1.0.3] — 2026-05-20
+
+### Added
+- In-app Cloudflare onboarding wizard (first-run + Settings).
+- Multi-domain support — connect more than one Cloudflare domain.
+- Auto-detect system modifications and configure the optimal setup for any Android phone during onboarding.
+
+### Improved
+- Cleaner deploy progress UI.
+- More reliable deploys across all target types.
+
 ## [1.0.2] — 2026-05-19
 
 ### Added
