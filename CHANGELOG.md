@@ -3,6 +3,13 @@
 All notable changes to anyDeploy will be documented in this file.
 Format based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
+## [1.0.8] — 2026-05-21
+
+### Improved
+- Cleaner first-run experience. Activate or start a free trial without configuring anything — the app already knows where to phone home.
+- Smoother handoff after purchase.
+- General reliability polish.
+
 ## [1.0.7] — 2026-05-21
 
 ### Added
