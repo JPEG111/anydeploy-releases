@@ -3,6 +3,15 @@
 All notable changes to anyDeploy will be documented in this file.
 Format based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
+## [1.0.6] — 2026-05-21
+
+### Added
+- Broader GitHub repository compatibility — works with any repository regardless of its default branch name.
+
+### Improved
+- Smarter first-deploy detection: anyDeploy figures out the right starting point for your repository and remembers it for next time.
+- General polish across the deploy pipeline.
+
 ## [1.0.5] — 2026-05-21
 
 ### Improved
