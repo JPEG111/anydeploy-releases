@@ -3,6 +3,15 @@
 All notable changes to anyDeploy will be documented in this file.
 Format based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
+## [1.0.5] — 2026-05-21
+
+### Improved
+- Faster, more reliable first-launch experience — the app starts cleanly the moment you install it.
+- Smoother startup on cold-boot Windows installs.
+
+### Fixed
+- Resolved an installer-related startup issue affecting some Windows machines on first launch.
+
 ## [1.0.4] — 2026-05-21
 
 ### Added
