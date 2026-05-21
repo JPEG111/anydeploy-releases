@@ -3,6 +3,15 @@
 All notable changes to anyDeploy will be documented in this file.
 Format based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
+## [1.0.7] — 2026-05-21
+
+### Added
+- Free 2-day trial flow is live in the in-app plan picker — machine-locked, no payment required.
+
+### Improved
+- Stronger backend hardening across the licensing pipeline.
+- General reliability polish.
+
 ## [1.0.6] — 2026-05-21
 
 ### Added
