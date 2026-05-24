@@ -3,6 +3,16 @@
 All notable changes to anyDeploy will be documented in this file.
 Format based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
+## [1.0.9] — 2026-05-24
+
+### Added
+- Clear expired-trial messaging in the plan picker — when your 2-day trial is over, the app tells you exactly that instead of showing a generic status.
+- Checkout reliability: the browser now opens every time you click a paid plan, with visible feedback while it loads.
+
+### Improved
+- Plan cards no longer allow accidental text selection — more polished, app-like feel.
+- Plan picker visual polish: badges render correctly, colours consistent with the app's dark theme.
+
 ## [1.0.8] — 2026-05-21
 
 ### Improved
