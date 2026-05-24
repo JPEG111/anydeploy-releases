@@ -3,6 +3,11 @@
 All notable changes to anyDeploy will be documented in this file.
 Format based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
+## [1.0.10] — 2026-05-24
+
+### Fixed
+- Pro and Lifetime checkout buttons now open the correct payment page every time.
+
 ## [1.0.9] — 2026-05-24
 
 ### Added
