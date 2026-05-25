@@ -3,6 +3,12 @@
 All notable changes to anyDeploy will be documented in this file.
 Format based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
+## [1.0.12] — 2026-05-25
+
+### Improved
+- Cleaner, less cluttered Deploy screen — the in-progress view now sits flush on the page instead of being wrapped in nested cards.
+- Smoother progress radial — removed visual artifacts around the ring for a more polished, app-native look.
+
 ## [1.0.11] — 2026-05-25
 
 ### Fixed
