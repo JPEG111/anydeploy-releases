@@ -3,6 +3,11 @@
 All notable changes to anyDeploy will be documented in this file.
 Format based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
+## [1.0.11] — 2026-05-25
+
+### Fixed
+- Pro and Lifetime checkout now opens reliably across all Windows configurations.
+
 ## [1.0.10] — 2026-05-24
 
 ### Fixed
