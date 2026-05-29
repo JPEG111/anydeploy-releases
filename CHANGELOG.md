@@ -3,6 +3,11 @@
 All notable changes to anyDeploy will be documented in this file.
 Format based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
+## [1.0.20] — 2026-05-29
+
+### Added
+- Terminal tab on every project — run commands directly on your deployment device from inside the app. Scoped to the project directory. Blocks destructive system operations while leaving you free to inspect files, check logs, and debug.
+
 ## [1.0.19] — 2026-05-29
 
 ### Improved
