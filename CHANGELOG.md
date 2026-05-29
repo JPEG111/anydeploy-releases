@@ -3,6 +3,28 @@
 All notable changes to anyDeploy will be documented in this file.
 Format based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
+## [1.0.15] — 2026-05-29
+
+### Added
+- Target Health panel now shows live CPU and RAM for each connected device.
+- When multiple deployment targets are configured, the CPU, RAM, and Disk cards on the dashboard each display a separate coloured bar per device for at-a-glance comparison.
+- Target Health audit view now lists leftover config directories from deleted projects, with a per-entry Clean button.
+
+### Improved
+- Environment variables added via the Settings panel now take effect immediately on the next deployment across all project types.
+- Improved reliability when the licensing server is temporarily unreachable.
+
+## [1.0.14] — 2026-05-29
+
+### Added
+- Target Health audit view (Settings → Advanced) now shows leftover config directories from deleted projects and lets you clean them up without SSH access. Works for all device types.
+
+## [1.0.13] — 2026-05-29
+
+### Improved
+- Environment variables added or changed in the Settings panel now reliably take effect when redeploying, regardless of when the variable was first added.
+- Clearer messaging when the licensing server is temporarily unavailable.
+
 ## [1.0.12] — 2026-05-25
 
 ### Improved
