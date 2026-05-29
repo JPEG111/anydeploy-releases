@@ -3,6 +3,14 @@
 All notable changes to anyDeploy will be documented in this file.
 Format based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
+## [1.0.16] — 2026-05-29
+
+### Added
+- Target Health panel now shows disk usage per device alongside CPU and RAM.
+
+### Fixed
+- CPU and RAM metrics no longer disappear when switching between pages — values stay visible instantly when returning to the dashboard.
+
 ## [1.0.15] — 2026-05-29
 
 ### Added
