@@ -3,6 +3,12 @@
 All notable changes to anyDeploy will be documented in this file.
 Format based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
+## [1.0.17] — 2026-05-29
+
+### Fixed
+- Dashboard CPU, RAM, and Disk cards no longer show zero on first load.
+- Values in the dashboard cards now match the Target Health panel.
+
 ## [1.0.16] — 2026-05-29
 
 ### Added
