@@ -3,6 +3,11 @@
 All notable changes to anyDeploy will be documented in this file.
 Format based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
+## [1.0.19] — 2026-05-29
+
+### Improved
+- Environment variables added or changed via the Settings panel now reliably take effect when you hit Sync or Restart — for every project type and every device, on the first try.
+
 ## [1.0.18] — 2026-05-29
 
 ### Fixed
