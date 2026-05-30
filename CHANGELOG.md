@@ -3,6 +3,11 @@
 All notable changes to anyDeploy will be documented in this file.
 Format based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
+## [1.0.23] — 2026-05-30
+
+### Changed
+- Removed the offline grace period. The app now requires an internet connection on launch to validate licenses and trial status in real-time, preventing blocklist bypasses.
+
 ## [1.0.22] — 2026-05-30
 
 ### Fixed
