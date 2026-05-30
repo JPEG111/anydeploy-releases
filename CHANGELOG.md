@@ -3,6 +3,11 @@
 All notable changes to anyDeploy will be documented in this file.
 Format based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
+## [1.0.26] — 2026-05-30
+
+### Added
+- Terminal output text can now be selected and copied.
+
 ## [1.0.25] — 2026-05-30
 
 ### Added
