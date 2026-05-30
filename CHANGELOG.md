@@ -3,6 +3,12 @@
 All notable changes to anyDeploy will be documented in this file.
 Format based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
+## [1.0.22] — 2026-05-30
+
+### Fixed
+- Hardened trial security to prevent machine ID spoofing when a device is renamed.
+- Resolved an issue where blocked devices could bypass the blocklist under certain conditions.
+
 ## [1.0.21] — 2026-05-30
 
 ### Improved
