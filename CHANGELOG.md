@@ -3,6 +3,16 @@
 All notable changes to anyDeploy will be documented in this file.
 Format based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
+## [1.0.21] — 2026-05-30
+
+### Improved
+- Smoother terminal experience with inline typing directly on the prompt line instead of a separate input box.
+- Visual polish: blinking block cursor, cleaner terminal view, and animated execution indicators.
+
+### Fixed
+- Terminal window no longer jumps up and down while typing.
+- Crash fix when terminal commands exit unexpectedly.
+
 ## [1.0.20] — 2026-05-29
 
 ### Added
