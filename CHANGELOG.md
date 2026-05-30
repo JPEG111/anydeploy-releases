@@ -7,9 +7,11 @@ Format based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
 ### Added
 - Explicit "Offline" and "Trial Expired" banners on the launch screen if the app cannot validate the license or if the trial period has ended.
+- Unified Security Validation: Trial keys are now subject to strict real-time server validation on every launch. If a trial machine is blocked via the proxy admin panel, the desktop app will instantly revoke access.
 
 ### Fixed
 - Resolved an infinite loop rate-limit issue ("Too many attempts") that occurred when starting a new free trial.
+- Fixed a silent pipeline crash where WSL GPU teardown processes would halt Linux AppImage generation.
 
 ## [1.0.23] — 2026-05-30
 
