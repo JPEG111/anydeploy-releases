@@ -3,6 +3,17 @@
 All notable changes to anyDeploy will be documented in this file.
 Format based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
+## [1.0.25] — 2026-05-30
+
+### Added
+- Admin panel now shows a clear "Blocked" status for any trial user that has been suspended, so you can instantly see who is blocked at a glance.
+
+### Improved
+- Trial management controls in the admin panel are more intuitive and clearly labeled.
+
+### Fixed
+- Status badge in the Trials tab now correctly reflects real-time block state instead of always showing "Active".
+
 ## [1.0.24] — 2026-05-30
 
 ### Added
