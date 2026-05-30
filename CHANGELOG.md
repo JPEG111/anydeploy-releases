@@ -8,6 +8,9 @@ Format based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 ### Added
 - Explicit "Offline" and "Trial Expired" banners on the launch screen if the app cannot validate the license or if the trial period has ended.
 
+### Fixed
+- Resolved an infinite loop rate-limit issue ("Too many attempts") that occurred when starting a new free trial.
+
 ## [1.0.23] — 2026-05-30
 
 ### Changed
