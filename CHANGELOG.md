@@ -3,6 +3,14 @@
 All notable changes to anyDeploy will be documented in this file.
 Format based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
+## [1.0.28] — 2026-05-31
+
+### Added
+- Phone setup now shows scannable QR codes for the two apps required — point your phone camera to go straight to the download.
+
+### Improved
+- Reliability and stability improvements across the deployment pipeline.
+
 ## [1.0.27] — 2026-05-31
 
 ### Added
