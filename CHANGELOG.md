@@ -3,6 +3,18 @@
 All notable changes to anyDeploy will be documented in this file.
 Format based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
+## [1.0.27] — 2026-05-31
+
+### Added
+- Setup wizard now guides you through getting a domain when you don't have one yet — two clear options with step-by-step instructions and a refresh button to check once it's ready.
+- Phone setup step now shows direct download links for the apps needed on your device and explains what gets installed automatically.
+- Public URL for instant auto-deploy on every GitHub push can now be configured during initial setup.
+
+### Improved
+- External links now open reliably in your system browser from all setup screens.
+- Setup flow ordering is now clearly explained so the connection between each step makes sense.
+- Reliability and stability improvements across the deployment pipeline.
+
 ## [1.0.26] — 2026-05-30
 
 ### Added
