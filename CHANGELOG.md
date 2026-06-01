@@ -3,6 +3,15 @@
 All notable changes to anyDeploy will be documented in this file.
 Format based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
+## [1.0.44] — 2026-06-01
+
+### Added
+- Deploy with a free public link — no domain needed. anyDeploy creates a free Cloudflare tunnel for the project and gives you a shareable URL. Pick 'Free temporary link' when deploying. (Free links change when the device restarts; use a domain for a permanent address.)
+- Your project page shows the live link, clearly marked as temporary.
+
+### Unchanged
+- Custom domains work exactly as before — nothing changes if you already use one.
+
 ## [1.0.43] — 2026-06-01
 
 ### Improved
