@@ -3,6 +3,11 @@
 All notable changes to anyDeploy will be documented in this file.
 Format based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
+## [1.0.50] — 2026-06-01
+
+### Improved
+- Free public links now show everywhere a project's address appears — dashboard card, Visit button, and Domains settings — not just the project header.
+
 ## [1.0.49] — 2026-06-01
 
 ### Improved
