@@ -3,6 +3,11 @@
 All notable changes to anyDeploy will be documented in this file.
 Format based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
+## [1.0.43] — 2026-06-01
+
+### Improved
+- The empty dashboard now guides new users with a two-step checklist (connect a device, then deploy) so the first deploy never dead-ends because no device is connected yet.
+
 ## [1.0.42] — 2026-06-01
 
 ### Improved
