@@ -3,7 +3,7 @@
 
   <br />
 
-  ![Version](https://img.shields.io/badge/version-1.0.28-6366f1?style=for-the-badge)
+  ![Version](https://img.shields.io/badge/version-1.0.29-6366f1?style=for-the-badge)
   ![Downloads](https://img.shields.io/github/downloads/JPEG111/anydeploy-releases/total.svg?style=for-the-badge&color=10b981)
   ![Windows](https://img.shields.io/badge/Windows-0078D4?style=for-the-badge&logo=windows)
   ![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
@@ -18,12 +18,12 @@
 
 ## Download
 
-Latest release: [v1.0.28](../../releases/latest)
+Latest release: [v1.0.29](../../releases/latest)
 
 | Platform | Download |
 |---|---|
-| Windows 10+ (64-bit) | [anyDeploy Setup 1.0.28.exe](../../releases/latest/download/anyDeploy.Setup.1.0.28.exe) |
-| Linux x64 (Ubuntu 16.04+, Debian 9+, Fedora 25+, any glibc 2.17+ distro) | [anyDeploy-1.0.28.AppImage](../../releases/latest/download/anyDeploy-1.0.28.AppImage) |
+| Windows 10+ (64-bit) | [anyDeploy Setup 1.0.29.exe](../../releases/latest/download/anyDeploy.Setup.1.0.29.exe) |
+| Linux x64 (Ubuntu 16.04+, Debian 9+, Fedora 25+, any glibc 2.17+ distro) | [anyDeploy-1.0.29.AppImage](../../releases/latest/download/anyDeploy-1.0.29.AppImage) |
 | macOS | *Coming soon — email support@anydeploy.app for early access* |
 
 > **Verify integrity:** the SHA-256 checksum in `latest.yml` (Windows) or
@@ -76,9 +76,9 @@ SmartScreen will flash "Windows protected your PC" on first install — click **
 **Linux:** glibc 2.17+ (any distro from the last 8 years). ~200 MB disk.  
 Mark the AppImage executable first:
 ```bash
-chmod +x anyDeploy-1.0.28.AppImage
+chmod +x anyDeploy-1.0.29.AppImage
 ```
-Then double-click, or run `./anyDeploy-1.0.28.AppImage`.
+Then double-click, or run `./anyDeploy-1.0.29.AppImage`.
 
 **macOS:** coming soon.
 

@@ -3,6 +3,13 @@
 All notable changes to anyDeploy will be documented in this file.
 Format based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
+## [1.0.29] — 2026-05-31
+
+### Improved
+- Target selection cards now clearly indicate whether a device needs to be on the same WiFi as your computer, or can be reached from any network.
+- Setup wizard shows an upfront warning for devices that require a local network connection — no more mysterious setup failures.
+- Reliability and polish improvements.
+
 ## [1.0.28] — 2026-05-31
 
 ### Added
