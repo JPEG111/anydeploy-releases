@@ -3,6 +3,11 @@
 All notable changes to anyDeploy will be documented in this file.
 Format based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
+## [1.0.46] — 2026-06-01
+
+### Improved
+- Free temporary links now work for static sites too, not just apps and APIs.
+
 ## [1.0.45] — 2026-06-01
 
 ### Fixed
