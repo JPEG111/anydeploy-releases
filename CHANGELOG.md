@@ -3,6 +3,11 @@
 All notable changes to anyDeploy will be documented in this file.
 Format based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
+## [1.0.39] — 2026-06-01
+
+### Improved
+- Clearer wording on the domain connection screen so it's obvious the nameservers go at your domain registrar (Porkbun, GoDaddy, etc.), not inside Cloudflare.
+
 ## [1.0.38] — 2026-06-01
 
 ### Fixed
