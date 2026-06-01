@@ -3,6 +3,13 @@
 All notable changes to anyDeploy will be documented in this file.
 Format based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
+## [1.0.41] — 2026-06-01
+
+### Improved
+- Adding a device from the dashboard now uses the same one-command setup as first-time onboarding — no more manual SSH host/port/password forms.
+- Buying a domain auto-detects the moment it appears in your account — no need to keep refreshing.
+- Active domains are pre-selected so you can continue in one click.
+
 ## [1.0.40] — 2026-06-01
 
 ### Improved
