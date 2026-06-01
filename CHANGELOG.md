@@ -3,6 +3,12 @@
 All notable changes to anyDeploy will be documented in this file.
 Format based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
+## [1.0.33] — 2026-05-31
+
+### Added
+- No domain yet? Setup now offers a clean two-path guide — buy a fresh domain (with links to the cheapest registrars) or connect one you already own.
+- Connecting an existing domain is now mostly automatic: type it in and anyDeploy adds it to Cloudflare for you, then shows the exact nameservers to set at your registrar with one-click copy and direct links to GoDaddy, Namecheap, Porkbun and Google.
+
 ## [1.0.32] — 2026-05-31
 
 ### Fixed
