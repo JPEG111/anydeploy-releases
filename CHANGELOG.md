@@ -3,6 +3,11 @@
 All notable changes to anyDeploy will be documented in this file.
 Format based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
+## [1.0.45] — 2026-06-01
+
+### Fixed
+- Free-link projects now clean up their tunnel properly when stopped or deleted, and restore it when restarted — no leftover background tunnels.
+
 ## [1.0.44] — 2026-06-01
 
 ### Added
