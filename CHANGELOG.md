@@ -3,6 +3,11 @@
 All notable changes to anyDeploy will be documented in this file.
 Format based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
+## [1.0.38] — 2026-06-01
+
+### Fixed
+- Domains added to Cloudflare but not yet active are now tappable in the domain list — they reopen the nameserver setup so you can finish connecting them, instead of being stuck as a greyed-out row.
+
 ## [1.0.37] — 2026-06-01
 
 ### Improved
