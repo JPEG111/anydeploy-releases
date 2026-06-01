@@ -3,6 +3,11 @@
 All notable changes to anyDeploy will be documented in this file.
 Format based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
+## [1.0.34] — 2026-05-31
+
+### Improved
+- After buying a domain, the next step is now obvious: Cloudflare buyers refresh, and anyone who bought elsewhere is taken straight into the one-step connect flow — no more dead-end refreshes.
+
 ## [1.0.33] — 2026-05-31
 
 ### Added
