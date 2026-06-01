@@ -3,6 +3,11 @@
 All notable changes to anyDeploy will be documented in this file.
 Format based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
+## [1.0.53] — 2026-06-01
+
+### Fixed
+- Projects on a branch other than 'main' (e.g. master/develop) are now recorded with the correct branch in deployment history and remembered for faster redeploys.
+
 ## [1.0.52] — 2026-06-01
 
 ### Added
