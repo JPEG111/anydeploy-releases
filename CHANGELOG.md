@@ -3,6 +3,11 @@
 All notable changes to anyDeploy will be documented in this file.
 Format based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
+## [1.0.35] — 2026-05-31
+
+### Fixed
+- Cloudflare setup now shows the real reason when something fails (e.g. an API token missing a permission) instead of a generic 'HTTP 400' error.
+
 ## [1.0.34] — 2026-05-31
 
 ### Improved
