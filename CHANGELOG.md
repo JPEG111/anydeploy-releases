@@ -3,6 +3,12 @@
 All notable changes to anyDeploy will be documented in this file.
 Format based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
+## [1.0.30] — 2026-05-31
+
+### Improved
+- Cloudflare setup now shows an exact table of which permissions and levels to select when creating an API token — no guesswork required.
+- Reliability and polish improvements.
+
 ## [1.0.29] — 2026-05-31
 
 ### Improved
