@@ -3,6 +3,11 @@
 All notable changes to anyDeploy will be documented in this file.
 Format based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
+## [1.0.49] — 2026-06-01
+
+### Improved
+- 'This Computer' can now use free public links — anyDeploy auto-installs the tunnel tool when needed, so the PC running anyDeploy can become a publicly reachable server with no manual setup.
+
 ## [1.0.48] — 2026-06-01
 
 ### Fixed
