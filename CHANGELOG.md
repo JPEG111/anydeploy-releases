@@ -3,6 +3,11 @@
 All notable changes to anyDeploy will be documented in this file.
 Format based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
+## [1.0.42] — 2026-06-01
+
+### Improved
+- Settings now uses the same one-command target setup as everywhere else — the old manual SSH form is gone, so adding a device is consistent no matter where you start from.
+
 ## [1.0.41] — 2026-06-01
 
 ### Improved
