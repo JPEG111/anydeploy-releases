@@ -3,6 +3,11 @@
 All notable changes to anyDeploy will be documented in this file.
 Format based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
+## [1.0.52] — 2026-06-01
+
+### Added
+- Turn 'This Computer' into a real public server: a project on your own PC can now have a custom domain. anyDeploy sets up a secure tunnel automatically (no extra software to configure, no port forwarding) so the site is reachable at your domain like a deployment to a server.
+
 ## [1.0.51] — 2026-06-01
 
 ### Fixed
