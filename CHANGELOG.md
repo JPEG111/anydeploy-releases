@@ -3,6 +3,14 @@
 All notable changes to anyDeploy will be documented in this file.
 Format based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
+## [1.0.32] — 2026-05-31
+
+### Fixed
+- Cloudflare connection no longer fails with a 'no accounts found' message when the API token is set up correctly — your domains now load reliably.
+
+### Improved
+- Reliability and polish improvements.
+
 ## [1.0.31] — 2026-05-31
 
 ### Improved
