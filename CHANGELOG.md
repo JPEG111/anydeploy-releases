@@ -3,6 +3,13 @@
 All notable changes to anyDeploy will be documented in this file.
 Format based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
+## [1.0.31] — 2026-05-31
+
+### Improved
+- Cloudflare setup now shows a specific error and direct edit link if a token permission is missing — no need to delete and recreate the token.
+- Token setup instructions clarify which text to copy (the token value, not the curl test command below it).
+- Reliability and polish improvements.
+
 ## [1.0.30] — 2026-05-31
 
 ### Improved
