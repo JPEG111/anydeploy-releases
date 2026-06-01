@@ -3,6 +3,11 @@
 All notable changes to anyDeploy will be documented in this file.
 Format based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
+## [1.0.48] — 2026-06-01
+
+### Fixed
+- Static sites deployed to 'This Computer' now serve correctly out of the box (previously they had no server), and can use a free public link — every project type now works on every device type.
+
 ## [1.0.47] — 2026-06-01
 
 ### Improved
