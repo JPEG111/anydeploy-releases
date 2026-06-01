@@ -3,6 +3,11 @@
 All notable changes to anyDeploy will be documented in this file.
 Format based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
+## [1.0.51] — 2026-06-01
+
+### Fixed
+- Free public links are now saved correctly on a project's first deploy (previously the link could disappear after a refresh on a brand-new project).
+
 ## [1.0.50] — 2026-06-01
 
 ### Improved
