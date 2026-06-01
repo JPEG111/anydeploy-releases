@@ -3,6 +3,11 @@
 All notable changes to anyDeploy will be documented in this file.
 Format based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
+## [1.0.40] — 2026-06-01
+
+### Improved
+- When connecting a domain, anyDeploy now detects your registrar (Porkbun, GoDaddy, Namecheap, Squarespace, Name.com, Hostinger) and shows exact step-by-step instructions for that one with a direct link, instead of a generic list. Falls back to the full list if it can't detect.
+
 ## [1.0.39] — 2026-06-01
 
 ### Improved
