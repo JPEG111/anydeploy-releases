@@ -3,6 +3,11 @@
 All notable changes to anyDeploy will be documented in this file.
 Format based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
+## [1.0.47] — 2026-06-01
+
+### Improved
+- Free temporary links stay current automatically — if a device restarts and its free link changes, anyDeploy picks up the new link when you open the project.
+
 ## [1.0.46] — 2026-06-01
 
 ### Improved
