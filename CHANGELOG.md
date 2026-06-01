@@ -3,6 +3,11 @@
 All notable changes to anyDeploy will be documented in this file.
 Format based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
+## [1.0.36] — 2026-06-01
+
+### Fixed
+- Connecting a domain no longer fails with an account-detection error — adding a domain now works with the standard API token, no extra permissions needed.
+
 ## [1.0.35] — 2026-05-31
 
 ### Fixed
