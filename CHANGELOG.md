@@ -3,6 +3,11 @@
 All notable changes to anyDeploy will be documented in this file.
 Format based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
+## [1.0.37] — 2026-06-01
+
+### Improved
+- After connecting a domain, anyDeploy now watches for activation automatically and shows a live status — once your nameservers update it lights up 'active' on its own, no need to keep refreshing.
+
 ## [1.0.36] — 2026-06-01
 
 ### Fixed
