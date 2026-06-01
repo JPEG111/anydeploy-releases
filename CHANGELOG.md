@@ -3,6 +3,11 @@
 All notable changes to anyDeploy will be documented in this file.
 Format based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
+## [1.0.54] — 2026-06-01
+
+### Fixed
+- Windows 'This Computer' targets: per-project operations (logs, env vars, scheduled jobs) and local command execution now run in the same Git-Bash environment used for connection tests, instead of silently routing to WSL.
+
 ## [1.0.53] — 2026-06-01
 
 ### Fixed
