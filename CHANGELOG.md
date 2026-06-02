@@ -3,6 +3,14 @@
 All notable changes to anyDeploy will be documented in this file.
 Format based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
+## [1.0.55] — 2026-06-02
+
+### Added
+- Use your own Windows PC as a server: the local 'This Computer' target now runs deployments inside WSL2 (full Linux), with Node/pm2/Cloudflare auto-installed on first use. Supports web apps, APIs, bots, and free + custom-domain tunnels — same as a remote Linux target.
+
+### Notes
+- Windows local target requires WSL2; if absent, anyDeploy shows how to install it (no silent fallback). Linux/macOS local targets are unchanged.
+
 ## [1.0.54] — 2026-06-01
 
 ### Fixed
