@@ -6,20 +6,20 @@ Format based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 ## [1.0.55] — 2026-06-02
 
 ### Added
-- Use your own Windows PC as a server: the local 'This Computer' target now runs deployments inside WSL2 (full Linux), with Node/pm2/Cloudflare auto-installed on first use. Supports web apps, APIs, bots, and free + custom-domain tunnels — same as a remote Linux target.
+- Run your own Windows PC as a server: deploy web apps, APIs, and bots to the local "This Computer" target on Windows and reach them at a free public link or your own custom domain. Everything needed is set up automatically on first use, with live progress shown.
 
 ### Notes
-- Windows local target requires WSL2; if absent, anyDeploy shows how to install it (no silent fallback). Linux/macOS local targets are unchanged.
+- The Windows "This Computer" target needs a one-time Windows component enabled; if it's missing, anyDeploy shows you how. Deploying to Mac and Linux machines is unchanged.
 
 ## [1.0.54] — 2026-06-01
 
-### Fixed
-- Windows 'This Computer' targets: per-project operations (logs, env vars, scheduled jobs) and local command execution now run in the same Git-Bash environment used for connection tests, instead of silently routing to WSL.
+### Improved
+- More reliable setup and management for the local "This Computer" target on Windows.
 
 ## [1.0.53] — 2026-06-01
 
-### Fixed
-- Projects on a branch other than 'main' (e.g. master/develop) are now recorded with the correct branch in deployment history and remembered for faster redeploys.
+### Improved
+- Projects deployed from a branch other than the default now track and redeploy correctly.
 
 ## [1.0.52] — 2026-06-01
 
