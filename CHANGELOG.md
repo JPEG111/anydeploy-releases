@@ -3,6 +3,14 @@
 All notable changes to anyDeploy will be documented in this file.
 Format based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
+## [1.0.63] — 2026-06-04
+
+### Changed
+- Refreshed plans screen and a cleaner look across onboarding.
+
+### Improved
+- Better Linux support — the app now runs on more Linux setups, including NixOS.
+
 ## [1.0.55] — 2026-06-02
 
 ### Added
