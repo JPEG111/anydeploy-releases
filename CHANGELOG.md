@@ -3,6 +3,11 @@
 All notable changes to anyDeploy will be documented in this file.
 Format based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
+## [1.0.64] — 2026-06-05
+
+### Changed
+- Redesigned onboarding — a refreshed welcome, plans, and device-setup flow with a new editorial look.
+
 ## [1.0.63] — 2026-06-04
 
 ### Changed
