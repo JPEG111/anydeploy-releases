@@ -3,6 +3,11 @@
 All notable changes to anyDeploy will be documented in this file.
 Format based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
+## [1.0.65] — 2026-06-05
+
+### Changed
+- Every device type in the device picker now has its own artwork.
+
 ## [1.0.64] — 2026-06-05
 
 ### Changed
