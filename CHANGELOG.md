@@ -3,6 +3,19 @@
 All notable changes to anyDeploy will be documented in this file.
 Format based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
+## [1.0.69] — 2026-06-08
+
+### Added
+- Deploy to Linux desktops and laptops on your network — a new device type in setup.
+- More bot platforms and web frameworks are recognized automatically.
+
+### Improved
+- More reliable deployments to your own computer, with cleaner log views.
+- GitHub and Cloudflare connections stay reliable across app restarts.
+- Broader automatic setup of project dependencies across more Linux systems.
+- Redesigned device picker and a smoother Cloudflare setup experience.
+- Refreshed interface throughout.
+
 ## [1.0.65] — 2026-06-05
 
 ### Changed
