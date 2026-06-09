@@ -3,6 +3,14 @@
 All notable changes to anyDeploy will be documented in this file.
 Format based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
+## [1.0.70] — 2026-06-09
+
+### Improved
+- More reliable scheduled jobs (cron) and environment variables in your deployments.
+- Automatic domain setup now works across more Cloudflare configurations.
+- Clearer feedback when a deployment can't start, plus better highlighting of warnings in logs.
+- General stability and polish across the app.
+
 ## [1.0.69] — 2026-06-08
 
 ### Added
