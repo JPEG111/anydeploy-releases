@@ -3,6 +3,11 @@
 All notable changes to anyDeploy will be documented in this file.
 Format based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
+## [1.0.71] — 2026-06-09
+
+### Changed
+- Refreshed visual theme — a cleaner, monochrome white look across the app. Status stays easy to read at a glance: green for healthy, blue for in-progress, red for errors.
+
 ## [1.0.70] — 2026-06-09
 
 ### Improved
