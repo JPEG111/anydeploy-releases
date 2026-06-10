@@ -3,6 +3,17 @@
 All notable changes to anyDeploy will be documented in this file.
 Format based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
+## [1.0.73] — 2026-06-10
+
+### Added
+- Deploy more kinds of bots — WhatsApp, Twitch, and Matrix now join Discord, Telegram, and Slack.
+- Broader framework + runtime support — Bun projects, plus Hono, Elysia, Streamlit, Django, SvelteKit, and NestJS are recognized and run automatically.
+
+### Improved
+- More reliable connections on restrictive networks.
+- Per-process metrics now appear for apps running on this computer too.
+- General reliability and polish across the deployment pipeline.
+
 ## [1.0.72] — 2026-06-10
 
 ### Changed
