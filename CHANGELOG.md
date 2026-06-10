@@ -3,6 +3,16 @@
 All notable changes to anyDeploy will be documented in this file.
 Format based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
+## [1.0.72] — 2026-06-10
+
+### Changed
+- Refreshed onboarding and dashboard with a cleaner, more polished look and a new app mark.
+- Connection status is now clearer — see at a glance which device is offline, with no false alarms before you've connected one.
+
+### Improved
+- Smoother visuals and interactions across the app.
+- Tidier, less cluttered settings.
+
 ## [1.0.71] — 2026-06-09
 
 ### Changed
