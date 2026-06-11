@@ -3,6 +3,17 @@
 All notable changes to anyDeploy will be documented in this file.
 Format based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
+## [1.0.74] — 2026-06-11
+
+### Improved
+- Cleaner, calmer project screens with less visual clutter.
+- Free temporary links are more dependable across every kind of project.
+- Smoother navigation when removing a project.
+- Snappier day-to-day responsiveness.
+
+### Fixed
+- Broader support for project names.
+
 ## [1.0.73] — 2026-06-10
 
 ### Added
