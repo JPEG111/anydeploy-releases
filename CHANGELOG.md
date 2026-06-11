@@ -3,6 +3,12 @@
 All notable changes to anyDeploy will be documented in this file.
 Format based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
+## [1.0.75] — 2026-06-11
+
+### Improved
+- Free temporary public links now connect straight to your deployed app, every time.
+- More thorough cleanup when you remove a project.
+
 ## [1.0.74] — 2026-06-11
 
 ### Improved
