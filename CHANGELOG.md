@@ -3,6 +3,15 @@
 All notable changes to anyDeploy will be documented in this file.
 Format based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
+## [1.0.76] — 2026-06-15
+
+### Added
+- One-click **Update tools** on each connected device — installs the latest system and runtime updates for you.
+
+### Improved
+- Deployment logs are now grouped into clear, collapsible stages — easy to follow, and you can expand only the part you care about.
+- Cleaner, more readable project logs, a refreshed app icon and onboarding, and polish throughout.
+
 ## [1.0.75] — 2026-06-11
 
 ### Improved
