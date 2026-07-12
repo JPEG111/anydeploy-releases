@@ -22,7 +22,7 @@ Latest release: [v1.0.77](../../releases/latest)
 
 | Platform | Download |
 |---|---|
-| Windows 10+ (64-bit) | [anyDeploy Setup 1.0.77.exe](../../releases/latest/download/anyDeploy.Setup.1.0.77.exe) |
+| Windows 10+ (64-bit) | [anyDeploy Setup 1.0.77.exe](../../releases/latest/download/anyDeploy-Setup-1.0.77.exe) |
 | Linux x64 (Ubuntu 16.04+, Debian 9+, Fedora 25+, any glibc 2.17+ distro) | [anyDeploy-1.0.77.AppImage](../../releases/latest/download/anyDeploy-1.0.77.AppImage) |
 | macOS | *Coming soon — email support@anydeploy.app for early access* |
 
