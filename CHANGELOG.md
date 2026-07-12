@@ -3,6 +3,16 @@
 All notable changes to anyDeploy will be documented in this file.
 Format based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
+## [1.0.77] — 2026-07-12
+
+### Added
+- A redesigned first-run experience — a cleaner welcome, in-app plan selection, and a guided walkthrough for connecting your first device.
+- Choose your plan right inside the app, with a clear view of what each plan unlocks and a one-tap upgrade.
+
+### Improved
+- Smoother path from domain setup through to going live on your first device.
+- Polish and reliability improvements across the setup and deployment flow.
+
 ## [1.0.76] — 2026-06-15
 
 ### Added
