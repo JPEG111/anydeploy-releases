@@ -3,6 +3,17 @@
 All notable changes to anyDeploy will be documented in this file.
 Format based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
+## [1.0.78] — 2026-07-14
+
+### Added
+- A clearer, more scannable Plans screen — see exactly what each plan unlocks at a glance.
+- A redesigned Cloudflare setup step that makes the choice between a free instant link and your own domain obvious up front.
+
+### Improved
+- Sharper, easier-to-read text throughout first-run setup.
+- More reliable automatic updates on Windows.
+- General polish across the setup flow.
+
 ## [1.0.77] — 2026-07-12
 
 ### Added
