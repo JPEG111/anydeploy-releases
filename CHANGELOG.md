@@ -3,6 +3,21 @@
 All notable changes to anyDeploy will be documented in this file.
 Format based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
+## [1.0.79] — 2026-07-17
+
+### Added
+- The AI Website Builder now streams your site live as it's written, with a visible status showing exactly what it's doing.
+- **Agent Mode** — let the Builder automatically review and fix its own work before handing it back to you.
+- **Deep Think** — a more deliberate reasoning pass before the Builder starts, for trickier sites.
+- Stop an AI generation mid-way and keep everything that's already been built.
+- Real multi-page site generation, automatic SEO and social-preview metadata, and support for dropping in your own photos or 3D models.
+
+### Improved
+- A refreshed look across the Dashboard, Routines, and the AI Builder.
+- More reliable scheduled Routines.
+- Clearer upgrade prompts when you hit a plan limit.
+- Reliability and polish across the deployment pipeline.
+
 ## [1.0.78] — 2026-07-14
 
 ### Added
