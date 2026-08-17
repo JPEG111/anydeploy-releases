@@ -1,0 +1,537 @@
+# Changelog
+
+All notable changes to anyDeploy will be documented in this file.
+Format based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
+
+## [1.0.80] — 2026-08-17
+
+### Added
+- **Cancel a deployment while it's running.** Long builds no longer have to be waited out — stop one mid-flight and the target is left in a clean state.
+- Environment variables now genuinely respect the Production / Preview / Development scope you pick, instead of applying everywhere regardless.
+- Deploys to **This Computer** are health-checked after they finish, the same way remote targets always have been.
+
+### Improved
+- A deploy that falls over on its very first attempt now leaves a visible record in the project, so you can see what happened instead of finding nothing there.
+- Scheduled-task sync problems are reported to you as they happen rather than passing quietly.
+- More accurate detection of bot projects, including repositories whose filenames contain spaces.
+- The assistant panel is better at keeping access keys out of what it displays.
+- Cloudflare setup keeps your API token out of request URLs.
+- Slightly smaller download, and a range of reliability improvements across the deployment pipeline.
+
+## [1.0.79] — 2026-07-17
+
+### Added
+- The AI Website Builder now streams your site live as it's written, with a visible status showing exactly what it's doing.
+- **Agent Mode** — let the Builder automatically review and fix its own work before handing it back to you.
+- **Deep Think** — a more deliberate reasoning pass before the Builder starts, for trickier sites.
+- Stop an AI generation mid-way and keep everything that's already been built.
+- Real multi-page site generation, automatic SEO and social-preview metadata, and support for dropping in your own photos or 3D models.
+
+### Improved
+- A refreshed look across the Dashboard, Routines, and the AI Builder.
+- More reliable scheduled Routines.
+- Clearer upgrade prompts when you hit a plan limit.
+- Reliability and polish across the deployment pipeline.
+
+## [1.0.78] — 2026-07-14
+
+### Added
+- A clearer, more scannable Plans screen — see exactly what each plan unlocks at a glance.
+- A redesigned Cloudflare setup step that makes the choice between a free instant link and your own domain obvious up front.
+
+### Improved
+- Sharper, easier-to-read text throughout first-run setup.
+- More reliable automatic updates on Windows.
+- General polish across the setup flow.
+
+## [1.0.77] — 2026-07-12
+
+### Added
+- A redesigned first-run experience — a cleaner welcome, in-app plan selection, and a guided walkthrough for connecting your first device.
+- Choose your plan right inside the app, with a clear view of what each plan unlocks and a one-tap upgrade.
+
+### Improved
+- Smoother path from domain setup through to going live on your first device.
+- Polish and reliability improvements across the setup and deployment flow.
+
+## [1.0.76] — 2026-06-15
+
+### Added
+- One-click **Update tools** on each connected device — installs the latest system and runtime updates for you.
+
+### Improved
+- Deployment logs are now grouped into clear, collapsible stages — easy to follow, and you can expand only the part you care about.
+- Cleaner, more readable project logs, a refreshed app icon and onboarding, and polish throughout.
+
+## [1.0.75] — 2026-06-11
+
+### Improved
+- Free temporary public links now connect straight to your deployed app, every time.
+- More thorough cleanup when you remove a project.
+
+## [1.0.74] — 2026-06-11
+
+### Improved
+- Cleaner, calmer project screens with less visual clutter.
+- Free temporary links are more dependable across every kind of project.
+- Smoother navigation when removing a project.
+- Snappier day-to-day responsiveness.
+
+### Fixed
+- Broader support for project names.
+
+## [1.0.73] — 2026-06-10
+
+### Added
+- Deploy more kinds of bots — WhatsApp, Twitch, and Matrix now join Discord, Telegram, and Slack.
+- Broader framework + runtime support — Bun projects, plus Hono, Elysia, Streamlit, Django, SvelteKit, and NestJS are recognized and run automatically.
+
+### Improved
+- More reliable connections on restrictive networks.
+- Per-process metrics now appear for apps running on this computer too.
+- General reliability and polish across the deployment pipeline.
+
+## [1.0.72] — 2026-06-10
+
+### Changed
+- Refreshed onboarding and dashboard with a cleaner, more polished look and a new app mark.
+- Connection status is now clearer — see at a glance which device is offline, with no false alarms before you've connected one.
+
+### Improved
+- Smoother visuals and interactions across the app.
+- Tidier, less cluttered settings.
+
+## [1.0.71] — 2026-06-09
+
+### Changed
+- Refreshed visual theme — a cleaner, monochrome white look across the app. Status stays easy to read at a glance: green for healthy, blue for in-progress, red for errors.
+
+## [1.0.70] — 2026-06-09
+
+### Improved
+- More reliable scheduled jobs (cron) and environment variables in your deployments.
+- Automatic domain setup now works across more Cloudflare configurations.
+- Clearer feedback when a deployment can't start, plus better highlighting of warnings in logs.
+- General stability and polish across the app.
+
+## [1.0.69] — 2026-06-08
+
+### Added
+- Deploy to Linux desktops and laptops on your network — a new device type in setup.
+- More bot platforms and web frameworks are recognized automatically.
+
+### Improved
+- More reliable deployments to your own computer, with cleaner log views.
+- GitHub and Cloudflare connections stay reliable across app restarts.
+- Broader automatic setup of project dependencies across more Linux systems.
+- Redesigned device picker and a smoother Cloudflare setup experience.
+- Refreshed interface throughout.
+
+## [1.0.65] — 2026-06-05
+
+### Changed
+- Every device type in the device picker now has its own artwork.
+
+## [1.0.64] — 2026-06-05
+
+### Changed
+- Redesigned onboarding — a refreshed welcome, plans, and device-setup flow with a new editorial look.
+
+## [1.0.63] — 2026-06-04
+
+### Changed
+- Refreshed plans screen and a cleaner look across onboarding.
+
+### Improved
+- Better Linux support — the app now runs on more Linux setups, including NixOS.
+
+## [1.0.55] — 2026-06-02
+
+### Added
+- Run your own Windows PC as a server: deploy web apps, APIs, and bots to the local "This Computer" target on Windows and reach them at a free public link or your own custom domain. Everything needed is set up automatically on first use, with live progress shown.
+
+### Notes
+- The Windows "This Computer" target needs a one-time Windows component enabled; if it's missing, anyDeploy shows you how. Deploying to Mac and Linux machines is unchanged.
+
+## [1.0.54] — 2026-06-01
+
+### Improved
+- More reliable setup and management for the local "This Computer" target on Windows.
+
+## [1.0.53] — 2026-06-01
+
+### Improved
+- Projects deployed from a branch other than the default now track and redeploy correctly.
+
+## [1.0.52] — 2026-06-01
+
+### Added
+- Turn 'This Computer' into a real public server: a project on your own PC can now have a custom domain. anyDeploy sets up a secure tunnel automatically (no extra software to configure, no port forwarding) so the site is reachable at your domain like a deployment to a server.
+
+## [1.0.51] — 2026-06-01
+
+### Fixed
+- Free public links are now saved correctly on a project's first deploy (previously the link could disappear after a refresh on a brand-new project).
+
+## [1.0.50] — 2026-06-01
+
+### Improved
+- Free public links now show everywhere a project's address appears — dashboard card, Visit button, and Domains settings — not just the project header.
+
+## [1.0.49] — 2026-06-01
+
+### Improved
+- 'This Computer' can now use free public links — anyDeploy auto-installs the tunnel tool when needed, so the PC running anyDeploy can become a publicly reachable server with no manual setup.
+
+## [1.0.48] — 2026-06-01
+
+### Fixed
+- Static sites deployed to 'This Computer' now serve correctly out of the box (previously they had no server), and can use a free public link — every project type now works on every device type.
+
+## [1.0.47] — 2026-06-01
+
+### Improved
+- Free temporary links stay current automatically — if a device restarts and its free link changes, anyDeploy picks up the new link when you open the project.
+
+## [1.0.46] — 2026-06-01
+
+### Improved
+- Free temporary links now work for static sites too, not just apps and APIs.
+
+## [1.0.45] — 2026-06-01
+
+### Fixed
+- Free-link projects now clean up their tunnel properly when stopped or deleted, and restore it when restarted — no leftover background tunnels.
+
+## [1.0.44] — 2026-06-01
+
+### Added
+- Deploy with a free public link — no domain needed. anyDeploy creates a free Cloudflare tunnel for the project and gives you a shareable URL. Pick 'Free temporary link' when deploying. (Free links change when the device restarts; use a domain for a permanent address.)
+- Your project page shows the live link, clearly marked as temporary.
+
+### Unchanged
+- Custom domains work exactly as before — nothing changes if you already use one.
+
+## [1.0.43] — 2026-06-01
+
+### Improved
+- The empty dashboard now guides new users with a two-step checklist (connect a device, then deploy) so the first deploy never dead-ends because no device is connected yet.
+
+## [1.0.42] — 2026-06-01
+
+### Improved
+- Settings now uses the same one-command target setup as everywhere else — the old manual SSH form is gone, so adding a device is consistent no matter where you start from.
+
+## [1.0.41] — 2026-06-01
+
+### Improved
+- Adding a device from the dashboard now uses the same one-command setup as first-time onboarding — no more manual SSH host/port/password forms.
+- Buying a domain auto-detects the moment it appears in your account — no need to keep refreshing.
+- Active domains are pre-selected so you can continue in one click.
+
+## [1.0.40] — 2026-06-01
+
+### Improved
+- When connecting a domain, anyDeploy now detects your registrar (Porkbun, GoDaddy, Namecheap, Squarespace, Name.com, Hostinger) and shows exact step-by-step instructions for that one with a direct link, instead of a generic list. Falls back to the full list if it can't detect.
+
+## [1.0.39] — 2026-06-01
+
+### Improved
+- Clearer wording on the domain connection screen so it's obvious the nameservers go at your domain registrar (Porkbun, GoDaddy, etc.), not inside Cloudflare.
+
+## [1.0.38] — 2026-06-01
+
+### Fixed
+- Domains added to Cloudflare but not yet active are now tappable in the domain list — they reopen the nameserver setup so you can finish connecting them, instead of being stuck as a greyed-out row.
+
+## [1.0.37] — 2026-06-01
+
+### Improved
+- After connecting a domain, anyDeploy now watches for activation automatically and shows a live status — once your nameservers update it lights up 'active' on its own, no need to keep refreshing.
+
+## [1.0.36] — 2026-06-01
+
+### Fixed
+- Connecting a domain no longer fails with an account-detection error — adding a domain now works with the standard API token, no extra permissions needed.
+
+## [1.0.35] — 2026-05-31
+
+### Fixed
+- Cloudflare setup now shows the real reason when something fails (e.g. an API token missing a permission) instead of a generic 'HTTP 400' error.
+
+## [1.0.34] — 2026-05-31
+
+### Improved
+- After buying a domain, the next step is now obvious: Cloudflare buyers refresh, and anyone who bought elsewhere is taken straight into the one-step connect flow — no more dead-end refreshes.
+
+## [1.0.33] — 2026-05-31
+
+### Added
+- No domain yet? Setup now offers a clean two-path guide — buy a fresh domain (with links to the cheapest registrars) or connect one you already own.
+- Connecting an existing domain is now mostly automatic: type it in and anyDeploy adds it to Cloudflare for you, then shows the exact nameservers to set at your registrar with one-click copy and direct links to GoDaddy, Namecheap, Porkbun and Google.
+
+## [1.0.32] — 2026-05-31
+
+### Fixed
+- Cloudflare connection no longer fails with a 'no accounts found' message when the API token is set up correctly — your domains now load reliably.
+
+### Improved
+- Reliability and polish improvements.
+
+## [1.0.31] — 2026-05-31
+
+### Improved
+- Cloudflare setup now shows a specific error and direct edit link if a token permission is missing — no need to delete and recreate the token.
+- Token setup instructions clarify which text to copy (the token value, not the curl test command below it).
+- Reliability and polish improvements.
+
+## [1.0.30] — 2026-05-31
+
+### Improved
+- Cloudflare setup now shows an exact table of which permissions and levels to select when creating an API token — no guesswork required.
+- Reliability and polish improvements.
+
+## [1.0.29] — 2026-05-31
+
+### Improved
+- Target selection cards now clearly indicate whether a device needs to be on the same WiFi as your computer, or can be reached from any network.
+- Setup wizard shows an upfront warning for devices that require a local network connection — no more mysterious setup failures.
+- Reliability and polish improvements.
+
+## [1.0.28] — 2026-05-31
+
+### Added
+- Phone setup now shows scannable QR codes for the two apps required — point your phone camera to go straight to the download.
+
+### Improved
+- Reliability and stability improvements across the deployment pipeline.
+
+## [1.0.27] — 2026-05-31
+
+### Added
+- Setup wizard now guides you through getting a domain when you don't have one yet — two clear options with step-by-step instructions and a refresh button to check once it's ready.
+- Phone setup step now shows direct download links for the apps needed on your device and explains what gets installed automatically.
+- Public URL for instant auto-deploy on every GitHub push can now be configured during initial setup.
+
+### Improved
+- External links now open reliably in your system browser from all setup screens.
+- Setup flow ordering is now clearly explained so the connection between each step makes sense.
+- Reliability and stability improvements across the deployment pipeline.
+
+## [1.0.26] — 2026-05-30
+
+### Added
+- Terminal output text can now be selected and copied.
+
+## [1.0.25] — 2026-05-30
+
+### Added
+- Admin panel now shows a clear "Blocked" status for any trial user that has been suspended, so you can instantly see who is blocked at a glance.
+
+### Improved
+- Trial management controls in the admin panel are more intuitive and clearly labeled.
+
+### Fixed
+- Status badge in the Trials tab now correctly reflects real-time block state instead of always showing "Active".
+
+## [1.0.24] — 2026-05-30
+
+### Added
+- Explicit "Offline" and "Trial Expired" banners on the launch screen if the app cannot validate the license or if the trial period has ended.
+- Unified Security Validation: Trial keys are now subject to strict real-time server validation on every launch. If a trial machine is blocked via the proxy admin panel, the desktop app will instantly revoke access.
+
+### Fixed
+- Resolved an infinite loop rate-limit issue ("Too many attempts") that occurred when starting a new free trial.
+- Fixed a silent pipeline crash where WSL GPU teardown processes would halt Linux AppImage generation.
+
+## [1.0.23] — 2026-05-30
+
+### Changed
+- Licence and trial status are now validated in real time on launch, so entitlements stay accurate.
+
+## [1.0.22] — 2026-05-30
+
+### Fixed
+- Hardened trial security to prevent machine ID spoofing when a device is renamed.
+- Improved the reliability of device entitlement checks.
+
+## [1.0.21] — 2026-05-30
+
+### Improved
+- Smoother terminal experience with inline typing directly on the prompt line instead of a separate input box.
+- Visual polish: blinking block cursor, cleaner terminal view, and animated execution indicators.
+
+### Fixed
+- Terminal window no longer jumps up and down while typing.
+- Crash fix when terminal commands exit unexpectedly.
+
+## [1.0.20] — 2026-05-29
+
+### Added
+- Terminal tab on every project — run commands directly on your deployment device from inside the app. Scoped to the project directory. Blocks destructive system operations while leaving you free to inspect files, check logs, and debug.
+
+## [1.0.19] — 2026-05-29
+
+### Improved
+- Environment variables added or changed via the Settings panel now reliably take effect when you hit Sync or Restart — for every project type and every device, on the first try.
+
+## [1.0.18] — 2026-05-29
+
+### Fixed
+- Dashboard metric values now match the Target Health panel from the very first load.
+- RAM and Disk cards show a percentage immediately while absolute values are still loading.
+
+## [1.0.17] — 2026-05-29
+
+### Fixed
+- Dashboard CPU, RAM, and Disk cards no longer show zero on first load.
+- Values in the dashboard cards now match the Target Health panel.
+
+## [1.0.16] — 2026-05-29
+
+### Added
+- Target Health panel now shows disk usage per device alongside CPU and RAM.
+
+### Fixed
+- CPU and RAM metrics no longer disappear when switching between pages — values stay visible instantly when returning to the dashboard.
+
+## [1.0.15] — 2026-05-29
+
+### Added
+- Target Health panel now shows live CPU and RAM for each connected device.
+- When multiple deployment targets are configured, the CPU, RAM, and Disk cards on the dashboard each display a separate coloured bar per device for at-a-glance comparison.
+- Target Health audit view now lists leftover config directories from deleted projects, with a per-entry Clean button.
+
+### Improved
+- Environment variables added via the Settings panel now take effect immediately on the next deployment across all project types.
+- Improved reliability when the licensing server is temporarily unreachable.
+
+## [1.0.14] — 2026-05-29
+
+### Added
+- Target Health audit view (Settings → Advanced) now shows leftover config directories from deleted projects and lets you clean them up without SSH access. Works for all device types.
+
+## [1.0.13] — 2026-05-29
+
+### Improved
+- Environment variables added or changed in the Settings panel now reliably take effect when redeploying, regardless of when the variable was first added.
+- Clearer messaging when the licensing server is temporarily unavailable.
+
+## [1.0.12] — 2026-05-25
+
+### Improved
+- Cleaner, less cluttered Deploy screen — the in-progress view now sits flush on the page instead of being wrapped in nested cards.
+- Smoother progress radial — removed visual artifacts around the ring for a more polished, app-native look.
+
+## [1.0.11] — 2026-05-25
+
+### Fixed
+- Pro and Lifetime checkout now opens reliably across all Windows configurations.
+
+## [1.0.10] — 2026-05-24
+
+### Fixed
+- Pro and Lifetime checkout buttons now open the correct payment page every time.
+
+## [1.0.9] — 2026-05-24
+
+### Added
+- Clear expired-trial messaging in the plan picker — when your 2-day trial is over, the app tells you exactly that instead of showing a generic status.
+- Checkout reliability: the browser now opens every time you click a paid plan, with visible feedback while it loads.
+
+### Improved
+- Plan cards no longer allow accidental text selection — more polished, app-like feel.
+- Plan picker visual polish: badges render correctly, colours consistent with the app's dark theme.
+
+## [1.0.8] — 2026-05-21
+
+### Improved
+- Cleaner first-run experience. Activate or start a free trial without configuring anything — the app already knows where to phone home.
+- Smoother handoff after purchase.
+- General reliability polish.
+
+## [1.0.7] — 2026-05-21
+
+### Added
+- Free 2-day trial flow is live in the in-app plan picker — machine-locked, no payment required.
+
+### Improved
+- Stronger backend hardening across the licensing pipeline.
+- General reliability polish.
+
+## [1.0.6] — 2026-05-21
+
+### Added
+- Broader GitHub repository compatibility — works with any repository regardless of its default branch name.
+
+### Improved
+- Smarter first-deploy detection: anyDeploy figures out the right starting point for your repository and remembers it for next time.
+- General polish across the deploy pipeline.
+
+## [1.0.5] — 2026-05-21
+
+### Improved
+- Faster, more reliable first-launch experience — the app starts cleanly the moment you install it.
+- Smoother startup on cold-boot Windows installs.
+
+### Fixed
+- Resolved an installer-related startup issue affecting some Windows machines on first launch.
+
+## [1.0.4] — 2026-05-21
+
+### Added
+- Faster, more reliable deploys across all target types — connection handling is more resilient on slow or unstable networks.
+- Improved app startup time on first launch.
+
+### Improved
+- More consistent deploy progress reporting — status updates arrive sooner and stay accurate for the full duration of a deploy.
+- General stability improvements throughout the app.
+
+## [1.0.3] — 2026-05-20
+
+### Added
+- In-app Cloudflare onboarding wizard (first-run + Settings).
+- Multi-domain support — connect more than one Cloudflare domain.
+- Auto-detect system modifications and configure the optimal setup for any Android phone during onboarding.
+
+### Improved
+- Cleaner deploy progress UI.
+- More reliable deploys across all target types.
+
+## [1.0.2] — 2026-05-19
+
+### Added
+- Redesigned plan picker with clearer tier differences.
+- New deploy progress view with named phases and elapsed-time counter.
+
+### Changed
+- Cleaner deploy experience — no transient "ERROR" state on successful deploys.
+- Sidebar stays stable during deploys.
+
+### Fixed
+- More reliable health detection across all supported target types.
+
+## [1.0.1] — 2026-05-19
+
+### Added
+- In-app subscription picker — choose between trial, monthly Pro, or
+  lifetime, all without leaving the app.
+- Automatic license key activation after checkout.
+
+### Changed
+- Reliability and polish improvements across the deployment pipeline.
+
+## [1.0.0] — 2026-05-19
+
+### Added
+- Initial public release.
+- Windows (.exe) and Linux (.AppImage) installers.
+- 6 deploy target types: Android phone (Termux), Linux server / VPS,
+  Raspberry Pi, another Linux computer, Windows + WSL2, local machine.
+- Auto-configuration of nginx, PM2, Cloudflare Tunnel + DNS, Let's Encrypt SSL.
+- First-class support for Discord, Telegram, and Slack bot projects.
+- 7-day offline license grace period.
+- Auto-deploy on GitHub push (poll-based, no webhook setup required).
+- Per-project environment variables (encrypted at rest).
+- Cron job management from the dashboard.
+- Storage tab showing live database file sizes.
