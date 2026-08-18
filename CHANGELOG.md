@@ -3,6 +3,12 @@
 All notable changes to anyDeploy will be documented in this file.
 Format based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
+## [1.0.81] — 2026-08-18
+
+### Improved
+- Clearer device setup: the welcome screen now lists exactly the devices you can connect, and Managed Cloud is labelled for what it is — the one-click way to get a public server without renting one yourself.
+- Turning on auto-deploy from a project's Git settings now shows you how to unlock it, instead of just refusing.
+
 ## [1.0.80] — 2026-08-17
 
 ### Added
