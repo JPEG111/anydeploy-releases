@@ -3,6 +3,21 @@
 All notable changes to anyDeploy will be documented in this file.
 Format based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
+## [1.0.82] — 2026-08-30
+
+### Added
+- **Cloud plans tell you what's coming, well before it happens.** Your billing page shows a clear countdown as your cloud time runs down, spells out exactly what happens at the end, and gives you a one-click way to extend without losing anything.
+- **Sites built in the AI Builder work with no internet connection.** Styling and fonts now come from inside anyDeploy itself, so previews appear instantly and what you see is what your visitors get.
+
+### Improved
+- Quicker startup — the interface draws entirely from resources that ship with the app.
+- Deployment progress tracks every stage from build to live, so you can always see where a deploy has got to.
+- Removing a cloud server releases it completely, so it stops costing you the moment you remove it.
+- Automatic deploys keep running smoothly when a connected repository is renamed, moved, or removed.
+- Menus, dialogs and panels close the way you expect — including with the Escape key.
+- Every download now has a published SHA-256 checksum, so you can confirm the file you got is the file we built.
+- Wide-ranging reliability and polish work across deployments, billing and the site builder.
+
 ## [1.0.81] — 2026-08-18
 
 ### Improved
