@@ -3,6 +3,17 @@
 All notable changes to anyDeploy will be documented in this file.
 Format based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
+## [1.0.83] — 2026-09-10
+
+### Added
+- **Bring your own images, fonts and 3D files into the AI Builder.** Add them to a site, see them in the preview, and they deploy with it.
+- **Preview the real built site before you deploy it** — images, fonts and 3D included, exactly as a visitor will see it.
+
+### Improved
+- Use the Builder over a local connection and a web connection at the same time, each kept separate from the other.
+- Your billing page now says when it cannot reach the licensing service, instead of showing a balance it was unable to read.
+- Wide-ranging reliability work across deployments, the site builder and the update process.
+
 ## [1.0.82] — 2026-08-30
 
 ### Added
