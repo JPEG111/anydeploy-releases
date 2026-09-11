@@ -3,6 +3,15 @@
 All notable changes to anyDeploy will be documented in this file.
 Format based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
+## [1.0.84] — 2026-09-11
+
+### Added
+- **Build with ChatGPT is a one-click download inside the app.** The companion no longer ships inside the installer — pick it up when you want it, watch the progress screen, and it is ready. Every file is checked before anything is installed.
+
+### Improved
+- A lighter installer — about a quarter smaller than the last release, with nothing removed.
+- Reliability and polish across the site builder, device health and the update process.
+
 ## [1.0.83] — 2026-09-10
 
 ### Added
