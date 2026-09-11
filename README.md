@@ -26,8 +26,10 @@ Latest release: [v1.0.84](../../releases/latest)
 | Linux x64 (Ubuntu 16.04+, Debian 9+, Fedora 25+, any glibc 2.17+ distro) | [anyDeploy.AppImage](../../releases/latest/download/anyDeploy.AppImage) |
 | macOS | *Coming soon — email support@anydeploy.app for early access* |
 
-> **Verify integrity:** the SHA-256 checksum in `latest.yml` (Windows) or
-> `latest-linux.yml` (Linux) must match your download.
+> **Verify integrity:** every release ships `SHA256SUMS.txt`. Compare it against your
+> download — the entries name the versioned files (`anyDeploy-Setup-<version>.exe`,
+> `anyDeploy-<version>.AppImage`), which are byte-identical to the links above. On Windows:
+> `Get-FileHash -Algorithm SHA256 <file>`; on Linux: `sha256sum -c SHA256SUMS.txt`.
 
 ## What you can deploy
 
@@ -64,16 +66,16 @@ no nginx tutorials, no PM2 docs.
 - PM2 process management with auto-restart on crash + boot
 - Cloudflare Tunnel + DNS (if you connect a Cloudflare account)
 - Let's Encrypt SSL certificates
-- Environment variables (encrypted at rest)
+- Environment variables per project and environment
 - Cron jobs
 - Database file tracking (storage tab shows live size)
 
 ## System requirements
 
-**Windows:** Windows 10 (64-bit) or newer. ~150 MB disk.  
+**Windows:** Windows 10 (64-bit) or newer. ~370 MB disk once installed (the installer itself is ~115 MB).  
 SmartScreen will flash "Windows protected your PC" on first install — click **More info** → **Run anyway**. This is expected for unsigned installers.
 
-**Linux:** glibc 2.17+ (any distro from the last 8 years). ~200 MB disk.  
+**Linux:** glibc 2.17+ (any distro from the last 8 years). ~140 MB — the AppImage runs from the file.  
 Mark the AppImage executable first:
 ```bash
 chmod +x anyDeploy.AppImage
@@ -85,7 +87,7 @@ Then double-click, or run `./anyDeploy.AppImage`.
 ## Support
 
 - **Bug reports** → [GitHub Issues](../../issues) (this repo)
-- **Feature requests** → [GitHub Discussions](../../discussions)
+- **Feature requests** → [GitHub Issues](../../issues) — same place, use the *feature* label
 - **Sales / licensing** → support@anydeploy.app
 
 ## License
