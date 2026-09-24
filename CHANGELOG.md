@@ -3,6 +3,18 @@
 All notable changes to anyDeploy will be documented in this file.
 Format based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
+## [1.0.86] — 2026-09-24
+
+### Added
+
+- You can now watch the app update itself. While a new version downloads, anyDeploy shows a
+  full-screen view with a real progress bar, how much has arrived and how fast, and a single
+  restart button once it is ready. Your projects, settings and licence are kept.
+
+### Changed
+
+- Small polish across the first screens you see when the app starts.
+
 ## [1.0.85] — 2026-09-24
 
 ### Added

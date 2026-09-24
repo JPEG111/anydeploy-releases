@@ -3,7 +3,7 @@
 
   <br />
 
-  ![Version](https://img.shields.io/badge/version-1.0.85-6366f1?style=for-the-badge)
+  ![Version](https://img.shields.io/badge/version-1.0.86-6366f1?style=for-the-badge)
   ![Downloads](https://img.shields.io/github/downloads/JPEG111/anydeploy-releases/total.svg?style=for-the-badge&color=10b981)
   ![Windows](https://img.shields.io/badge/Windows-0078D4?style=for-the-badge&logo=windows)
   ![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
@@ -18,7 +18,7 @@
 
 ## Download
 
-Latest release: [v1.0.85](../../releases/latest)
+Latest release: [v1.0.86](../../releases/latest)
 
 | Platform | Download |
 |---|---|
