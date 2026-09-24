@@ -3,6 +3,15 @@
 All notable changes to anyDeploy will be documented in this file.
 Format based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
+## [1.0.88] — 2026-09-24
+
+### Changed
+
+- Updates are much smaller. anyDeploy works out which parts of a new version actually changed and
+  downloads only those, instead of fetching the whole thing every time.
+- If an update ever misbehaves, the app keeps a small log of what it tried, so a problem can be
+  explained instead of guessed at.
+
 ## [1.0.86] — 2026-09-24
 
 ### Added
