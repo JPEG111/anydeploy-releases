@@ -3,6 +3,23 @@
 All notable changes to anyDeploy will be documented in this file.
 Format based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
+## [1.0.85] — 2026-09-24
+
+### Added
+
+- A guided setup for building with ChatGPT: a full-screen, step-by-step flow that shows what it
+  is doing and how far along it is, and moves out of the way once it is connected.
+- Use any of your connected domains: choose one per project, see every address a device answers
+  on, and change a project’s address later without starting over.
+- Setting up a phone now finishes by telling you, in plain words, whether that phone will bring
+  your projects back by itself after a restart — and exactly what to change if it will not.
+
+### Changed
+
+- The phone setup instructions are now part of the flow rather than a footnote, including the
+  one step people most often miss.
+- Reliability and polish across setup, deployment and the first-run experience.
+
 ## [1.0.84] — 2026-09-11
 
 ### Added
