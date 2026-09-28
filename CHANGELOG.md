@@ -3,6 +3,17 @@
 All notable changes to anyDeploy will be documented in this file.
 Format based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
+## [1.0.91] — 2026-09-28
+
+### Added
+
+- Searchable domain and Cloudflare tunnel overviews show connected websites and devices, with animated details and live refresh.
+- Device cleanup previews what will be removed, deletes deployed projects, and disconnects the device while preserving shared software.
+
+### Changed
+
+- Clearer setup guidance for phones, Raspberry Pi, Windows and Linux computers, with automatic device sign-in.
+
 ## [1.0.90] — 2026-09-28
 
 ### Changed
