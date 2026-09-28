@@ -3,6 +3,14 @@
 All notable changes to anyDeploy will be documented in this file.
 Format based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
+## [1.0.89] — 2026-09-28
+
+### Changed
+
+- Setting up a phone is now three clear, numbered steps with large text — install two apps,
+  change three settings, run one command — instead of a page of small print. The two steps that
+  are easy to miss are highlighted.
+
 ## [1.0.88] — 2026-09-24
 
 ### Changed
