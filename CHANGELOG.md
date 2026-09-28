@@ -3,6 +3,15 @@
 All notable changes to anyDeploy will be documented in this file.
 Format based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
+## [1.0.90] — 2026-09-28
+
+### Changed
+
+- Setting up a phone now asks one question first — is your phone rooted? — and shows the steps
+  that fit your phone. Most people just pick "No".
+- The phone setup steps are now the same everywhere: the large, numbered version appears both when
+  you first set up anyDeploy and every time you add another phone later.
+
 ## [1.0.89] — 2026-09-28
 
 ### Changed
