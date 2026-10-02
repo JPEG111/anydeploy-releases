@@ -3,6 +3,18 @@
 All notable changes to anyDeploy will be documented in this file.
 Format based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
+## [1.0.92] — 2026-10-03
+
+### Added
+
+- Deploys keep going when a device's Wi-Fi drops for a moment: anyDeploy reconnects on its own and picks the build up where it was.
+- Removing a phone shows a step-by-step report of everything that was taken off it.
+
+### Changed
+
+- A redesigned sidebar, a step-by-step AI agent setup, and a cleaner Settings page with a device health check that explains what is safe to clean up.
+- Faster process lists on phones, quicker phone setup checks, and clearer network connection details.
+
 ## [1.0.91] — 2026-09-28
 
 ### Added
