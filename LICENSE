@@ -1,13 +1,14 @@
 anyDeploy — Proprietary Software License
 
-Copyright (c) 2026 anyDeploy. All rights reserved.
+Copyright (c) 2026 Skandar, trading as "anyDeploy". All rights reserved.
 
 IMPORTANT: READ CAREFULLY BEFORE INSTALLING OR USING THIS SOFTWARE.
 
 This End-User License Agreement ("Agreement") is a legal agreement between you
-("Licensee") and anyDeploy ("Licensor") for the use of the anyDeploy desktop
-application and any associated software, documentation, and services
-(collectively, the "Software").
+("Licensee") and Skandar, the developer and publisher of anyDeploy
+("Licensor"), for the use of the anyDeploy desktop application and any
+associated software, documentation, and services (collectively, the
+"Software").
 
 By downloading, installing, or using the Software, you agree to be bound by the
 terms of this Agreement. If you do not agree to these terms, do not install or
@@ -17,8 +18,9 @@ use the Software.
 
 1. GRANT OF LICENSE
 
-Subject to the terms of this Agreement and the purchase of a valid license key,
-Licensor grants Licensee a non-exclusive, non-transferable, limited license to:
+Subject to the terms of this Agreement and to a valid license key or free trial
+activated in the Software, Licensor grants Licensee a non-exclusive,
+non-transferable, limited license to:
 
   a. Install and use the Software on a single machine per license key, solely
      for Licensee's own personal or internal business purposes.
@@ -26,7 +28,8 @@ Licensor grants Licensee a non-exclusive, non-transferable, limited license to:
 
 2. RESTRICTIONS
 
-Licensee may NOT:
+Except to the extent applicable law expressly permits it and this cannot be
+excluded by contract, Licensee may NOT:
 
   a. Copy, modify, adapt, translate, or create derivative works of the Software.
   b. Reverse engineer, disassemble, decompile, or otherwise attempt to derive
@@ -44,12 +47,21 @@ international treaty provisions. Licensor retains all intellectual property
 rights in and to the Software. No title to or ownership of the Software is
 transferred to Licensee under this Agreement.
 
+Third-party names, products and services referred to in the Software or its
+documentation are the trademarks of their respective owners. The Software is
+not affiliated with or endorsed by them.
+
 4. ACTIVATION AND LICENSE KEYS
 
-Use of the Software requires a valid license key obtained from Licensor. License
-keys are tied to a single installation. You may not use the same license key on
-more than the permitted number of machines. Licensor reserves the right to
-deactivate license keys that are used in violation of this Agreement.
+Use of the Software requires a valid license key or free trial obtained from
+Licensor. License keys are tied to a single installation. You may not use the
+same license key on more than the permitted number of machines. Licensor
+reserves the right to deactivate license keys that are used in violation of
+this Agreement.
+
+To validate license keys and trials, the Software contacts Licensor's
+licensing service, including when it starts. Licensor uses the information
+sent for this purpose only to provide, validate and protect licensing.
 
 5. UPDATES AND MAINTENANCE
 
@@ -59,41 +71,58 @@ unless a separate agreement accompanies such update.
 
 6. DISCLAIMER OF WARRANTIES
 
-THE SOFTWARE IS PROVIDED "AS IS" WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS
-FOR A PARTICULAR PURPOSE, AND NONINFRINGEMENT. LICENSOR DOES NOT WARRANT THAT
-THE SOFTWARE WILL MEET LICENSEE'S REQUIREMENTS OR THAT OPERATION OF THE SOFTWARE
-WILL BE UNINTERRUPTED OR ERROR-FREE.
+TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, THE SOFTWARE IS PROVIDED
+"AS IS" WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT
+LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE,
+AND NONINFRINGEMENT. LICENSOR DOES NOT WARRANT THAT THE SOFTWARE WILL MEET
+LICENSEE'S REQUIREMENTS OR THAT OPERATION OF THE SOFTWARE WILL BE UNINTERRUPTED
+OR ERROR-FREE.
 
 7. LIMITATION OF LIABILITY
 
-IN NO EVENT SHALL LICENSOR BE LIABLE FOR ANY INDIRECT, INCIDENTAL, SPECIAL,
-EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING BUT NOT LIMITED TO PROCUREMENT OF
-SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS
-INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN
-CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING
-IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY
-OF SUCH DAMAGE.
+TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, IN NO EVENT SHALL LICENSOR BE
+LIABLE FOR ANY INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL
+DAMAGES (INCLUDING BUT NOT LIMITED TO PROCUREMENT OF SUBSTITUTE GOODS OR
+SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER
+CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,
+OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF
+THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 LICENSOR'S TOTAL CUMULATIVE LIABILITY ARISING OUT OF OR RELATING TO THIS
 AGREEMENT SHALL NOT EXCEED THE AMOUNT PAID BY LICENSEE FOR THE LICENSE KEY IN
 THE TWELVE (12) MONTHS PRECEDING THE CLAIM.
 
-8. TERMINATION
+Nothing in this Agreement excludes or limits any liability that cannot be
+excluded or limited under applicable law, including liability for death or
+personal injury caused by negligence, for fraud, or for damage caused
+intentionally or by gross negligence.
+
+8. CONSUMER RIGHTS
+
+If you are a consumer, nothing in this Agreement affects the rights you have
+under the mandatory consumer protection laws of the country where you live.
+This includes, in the European Union and the European Economic Area, your
+statutory rights for digital content and digital services, such as the right
+to software that conforms to what was agreed. Sections 6 and 7 apply only as
+far as those laws allow.
+
+9. TERMINATION
 
 This Agreement is effective until terminated. Licensor may terminate this
-Agreement immediately upon written notice if Licensee breaches any provision of
-this Agreement. Upon termination, Licensee must destroy all copies of the
-Software in its possession. Sections 2, 3, 6, 7, and 9 shall survive
+Agreement immediately upon written notice if Licensee materially breaches any
+provision of this Agreement. Upon termination, Licensee must destroy all copies
+of the Software in its possession. Sections 2, 3, 6, 7, 8, and 10 shall survive
 termination.
 
-9. GOVERNING LAW
+10. GOVERNING LAW
 
-This Agreement shall be governed by and construed in accordance with the laws of
-the jurisdiction in which Licensor is incorporated, without regard to its
-conflict of law provisions.
+This Agreement is governed by the laws of the European Union Member State in
+which Licensor has its habitual residence, without regard to its conflict of
+law provisions. If you are a consumer, this choice of law does not deprive you
+of the protection of the mandatory provisions of the law of the country where
+you live, and you may also bring proceedings in the courts of that country.
 
-10. ENTIRE AGREEMENT
+11. ENTIRE AGREEMENT
 
 This Agreement constitutes the entire agreement between the parties with respect
 to the Software and supersedes all prior or contemporaneous understandings,

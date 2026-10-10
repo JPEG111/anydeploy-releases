@@ -444,24 +444,18 @@ Format based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
 ## [1.0.25] — 2026-05-30
 
-### Added
-- Admin panel now shows a clear "Blocked" status for any trial user that has been suspended, so you can instantly see who is blocked at a glance.
-
 ### Improved
-- Trial management controls in the admin panel are more intuitive and clearly labeled.
-
-### Fixed
-- Status badge in the Trials tab now correctly reflects real-time block state instead of always showing "Active".
+- Behind-the-scenes improvements to how free trials are managed.
 
 ## [1.0.24] — 2026-05-30
 
 ### Added
 - Explicit "Offline" and "Trial Expired" banners on the launch screen if the app cannot validate the license or if the trial period has ended.
-- Unified Security Validation: Trial keys are now subject to strict real-time server validation on every launch. If a trial machine is blocked via the proxy admin panel, the desktop app will instantly revoke access.
+- Free trials are now checked with the licensing service every time the app starts.
 
 ### Fixed
-- Resolved an infinite loop rate-limit issue ("Too many attempts") that occurred when starting a new free trial.
-- Fixed a silent pipeline crash where WSL GPU teardown processes would halt Linux AppImage generation.
+- Starting a new free trial no longer fails with a "Too many attempts" error.
+- Fixed a build issue that could stop the Linux AppImage from being published.
 
 ## [1.0.23] — 2026-05-30
 
@@ -471,7 +465,7 @@ Format based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 ## [1.0.22] — 2026-05-30
 
 ### Fixed
-- Hardened trial security to prevent machine ID spoofing when a device is renamed.
+- Free trials stay tied to the right machine when a device is renamed.
 - Improved the reliability of device entitlement checks.
 
 ## [1.0.21] — 2026-05-30
@@ -565,7 +559,7 @@ Format based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 ## [1.0.8] — 2026-05-21
 
 ### Improved
-- Cleaner first-run experience. Activate or start a free trial without configuring anything — the app already knows where to phone home.
+- Cleaner first-run experience. Activate or start a free trial without configuring anything — the app connects to the licensing service on its own.
 - Smoother handoff after purchase.
 - General reliability polish.
 

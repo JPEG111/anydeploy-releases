@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: 🔒 Report a security vulnerability
+    url: https://github.com/JPEG111/anydeploy-releases/blob/main/SECURITY.md
+    about: Please report security issues privately. Don't open a public issue.
+  - name: 💼 Sales and licensing
+    url: mailto:support@anydeploy.app
+    about: Questions about license keys, the Pro plan or Managed Cloud.
